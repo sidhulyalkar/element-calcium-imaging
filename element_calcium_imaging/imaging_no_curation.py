@@ -1490,8 +1490,8 @@ class SpikeStat(dj.Computed):
 
 
 _table_attribute_mapper = {
-    "ProcessingTask": "processing_output_dir",
-    "Curation": "curation_output_dir",
+    "processing_task": "processing_output_dir",
+    "__curation": "curation_output_dir",
 }
 
 
